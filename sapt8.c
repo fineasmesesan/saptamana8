@@ -113,7 +113,7 @@ void processElement(const char *elementName, const char *outputDirectory) {
 
 int main(int argc, char *argv[]) {
     if (argc != 3) {
-        fprintf(stderr, "Usage: %s <input_directory> <output_directory>\n", argv[0]);
+        fprintf(stderr, "foloseste: %s <input_directory> <output_directory>\n", argv[0]);
         return 1;
     }
 
